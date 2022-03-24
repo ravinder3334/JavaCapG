@@ -1,0 +1,12 @@
+package com.capg.prac;
+
+abstract class MyAbstraction1{
+	abstract void show();
+	void display() {
+		System.out.println("Displaying");
+	}
+}
+
+public class MyAbstraction {
+
+}

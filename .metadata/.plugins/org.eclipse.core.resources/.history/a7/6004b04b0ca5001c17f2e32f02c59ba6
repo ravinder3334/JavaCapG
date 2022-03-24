@@ -1,0 +1,17 @@
+package com.capg.prac;
+
+@FunctionalInterface
+interface Show2{
+	void show();
+}
+public class MyLambda {
+	
+	Show2 s = () -> {
+		System.out.println("Showing");
+	};
+	
+	s.show();
+	
+	
+	
+}

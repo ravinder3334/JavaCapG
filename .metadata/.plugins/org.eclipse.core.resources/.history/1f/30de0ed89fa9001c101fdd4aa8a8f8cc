@@ -1,0 +1,22 @@
+package com.capg;
+
+import java.util.Arrays;
+
+public class MyArrays {
+	public static void main(String[] args) {
+		int[] n = {10, 15, 45, 12};
+		int[] n2 = {10, 15, 45, 12};
+		String []st = {"Mohan", "Ram", "Aman"};
+		
+		
+//		Arrays.sort(n);
+		for(int i : n) {
+			System.out.println(i);
+		}
+		Arrays.sort(st);
+		for(String i : st) {
+			System.out.println(i);
+		}
+	}
+	
+}

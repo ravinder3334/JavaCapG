@@ -1,0 +1,10 @@
+package com.capg.work;
+
+class UserDefinedExeption extends Exception{
+	public void ourException() {
+		System.out.println("Under Age");
+	}
+}
+public class MyUserDefinedException {
+
+}

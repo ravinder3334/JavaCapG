@@ -1,0 +1,23 @@
+package com.capg.prac;
+
+@FunctionalInterface
+interface Show2{
+	void show();
+}
+public class MyLambda {
+	
+	public static void main(String[] args) {
+		
+		Show2 s = () -> {
+			System.out.println("Hello");
+		};
+		s.show();
+		
+		
+	}
+	
+	
+	
+	
+	
+}

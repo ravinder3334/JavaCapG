@@ -1,0 +1,9 @@
+package com.capg.prac;
+
+@FunctionalInterface
+interface Show{
+	void show();
+}
+public class MyLambda {
+
+}

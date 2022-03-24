@@ -1,0 +1,16 @@
+package com.capg;
+
+public class MyVarArgs {
+	
+	public static void display(int b, String... val) {
+		System.out.println("Displaying");
+		System.out.println(b);
+		for(String i: val) {
+			System.out.println(i);
+		}
+	}
+	
+	public static void main(String[] args) {
+		display(3,"rohit","aman","Shyam");
+	}
+}

@@ -1,0 +1,25 @@
+package com.capg.work;
+
+public class Mythrows {
+
+	void m() {
+		throw new ArithmeticException(); // Unchecked exception
+	}
+	void n() {
+		m();
+		
+	}
+	void p() {
+		try {
+			n();
+		}
+		catch(Exception e) {
+			System.out.println("Exception");
+		}
+	}
+	public static void main(String[] args) {
+		Mythrows n = new Mythrows();
+		n.p();
+		System.out.println("Ending");
+	}
+}

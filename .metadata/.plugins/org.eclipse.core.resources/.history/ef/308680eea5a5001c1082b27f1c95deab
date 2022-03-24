@@ -1,0 +1,33 @@
+package com.capg.work;
+
+public class MyExcetion {
+
+	public static void main(String[] args) {
+		
+//		try {
+//			int a=100/0;
+//		}
+//		catch(ArithmeticException exc) {
+//			System.out.println(exc);
+//		}
+//		try {
+//		String str=null;
+//		System.out.println(str.length());
+//		}
+//		catch(NullPointerException e) {
+//			System.out.println(e);
+//		}
+		
+		try {
+			String s="123";
+			int i = Integer.parseInt(s);
+		}catch(NumberFormatException e) {
+			System.out.println(e);
+		}
+		
+		System.out.println("Ending");
+	}
+	
+	
+	
+}

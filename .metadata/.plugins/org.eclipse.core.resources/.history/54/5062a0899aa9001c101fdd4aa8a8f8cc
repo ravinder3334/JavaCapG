@@ -1,0 +1,17 @@
+package com.capg;
+
+public class MyArray {
+	public static void main(String[] args) {
+		int []a;
+		int[] ar;
+		int arr[];
+		
+		arr = new int[3];
+//		 0      1          2
+//		1001	1002	1003
+		
+		arr[]=;
+		
+		
+	}
+}

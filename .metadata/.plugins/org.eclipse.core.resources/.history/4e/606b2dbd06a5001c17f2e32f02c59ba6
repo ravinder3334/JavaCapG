@@ -1,0 +1,36 @@
+package com.capg.prac;
+
+abstract class MyAbstraction1{
+	abstract void show();
+	void display() {
+		System.out.println("Displaying");
+	}
+	
+	public MyAbstraction1() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Working");
+	}
+}
+
+public class MyAbstraction extends MyAbstraction1{
+
+	@Override
+	void show() {
+		// TODO Auto-generated method stub
+		System.out.println("Showing");
+	}
+
+	public static void main(String[] args) {
+		MyAbstraction m = new MyAbstraction();
+//		m.show();
+//		m.display();
+		
+		MyAbstraction1 n = new MyAbstraction1() {
+			@Override
+			void show() {
+				System.out.println("Showing from super class");
+			}
+		};
+		n.display();
+	}
+}

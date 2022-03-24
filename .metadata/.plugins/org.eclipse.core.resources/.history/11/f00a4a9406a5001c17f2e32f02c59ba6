@@ -1,0 +1,23 @@
+package com.capg.prac;
+
+abstract class MyAbstraction1{
+	abstract void show();
+	void display() {
+		System.out.println("Displaying");
+	}
+}
+
+public class MyAbstraction extends MyAbstraction1{
+
+	@Override
+	void show() {
+		// TODO Auto-generated method stub
+		System.out.println("Showing");
+	}
+
+	public static void main(String[] args) {
+		MyAbstraction m = new MyAbstraction();
+		m.show();
+		m.display();
+	}
+}

@@ -1,0 +1,9 @@
+package com.capg.work;
+
+public class MyArray {
+	public static void main(String[] args) {
+		
+		int arr[] = new int[5];
+	}
+
+}

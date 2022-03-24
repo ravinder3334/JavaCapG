@@ -1,0 +1,36 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Èëÿ˜øÿÿÿÿ8ˆÞï¦û/H«	RMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8×¦Æ¨û/Hà	RMINORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(ûƒùÿÿÿÿÿÿ8Û¶÷¦û/H´	RMAJORZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼•¤º8ˆÞï¦û/H¬	RMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(çÆü†ùÿÿÿÿ8Û¶÷¦û/H¶	RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(†¹Ï§þÿÿÿÿ8· È¨û/Hó	RMAJORZ
+CODE_SMELL
+o
+java:S1854"7Remove this useless assignment to local variable "itr".(¨ŒÍÊúÿÿÿÿ8· È¨û/Hð	RMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(¨ŒÍÊúÿÿÿÿ8Û¶÷¦û/Hµ	RMAJORZ
+CODE_SMELL
+h
+java:S1128"0Remove this unused import 'java.util.Map.Entry'.(±þê¾úÿÿÿÿ8· È¨û/Hù	RMINORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8· È¨û/H÷	RMINORZ
+CODE_SMELL
+`
+java:S1481"(Remove this unused "itr" local variable.(¨ŒÍÊúÿÿÿÿ8· È¨û/Hñ	RMINORZ
+CODE_SMELL
+f
+java:S1128
+".Remove this unused import 'java.util.TreeMap'.(¨éˆèýÿÿÿÿ8í­’«û/H¬
+RMINORZ
+CODE_SMELL

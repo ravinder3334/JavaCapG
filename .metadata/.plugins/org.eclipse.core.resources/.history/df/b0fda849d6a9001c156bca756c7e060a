@@ -1,0 +1,19 @@
+package com.capg.collection;
+
+class Generics2<A,B>{
+	A name;
+	B bill;
+	void add(A name, B bill) {
+		this.name=name;
+		this.bill=bill;
+	}
+	A getName() {
+		return name;
+	}
+	B getRollNo() {
+		return bill;
+	}
+}
+public class MyGenerics2 {
+
+}
